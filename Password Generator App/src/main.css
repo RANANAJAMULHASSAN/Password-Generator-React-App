@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    height: 100vh;
+}
+
+.box {
+    width: 350px;
+    background: linear-gradient(to bottom, #33ccff 0%, #ccccff 100%);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.passinput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.passinput input {
+    padding: 7px;
+    flex-basis: 80%;
+    font-weight: 600;
+
+
+}
+
+.passinput button {
+    padding: 7px;
+    flex-basis: 20%;
+    background-color: #33ccff;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.box h2 {
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.passwordlength {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.passwordlength input {
+    flex-basis: 20%;
+
+}
+
+.passwordlength h3 {
+    flex-basis: 100%;
+}
+
+.passlength {
+    display: flex;
+}
+
+.passlength h3 {
+    flex-basis: 80%;
+
+}
+
+.passlength input {
+    flex-basis: 20%;
+    padding: 5px;
+
+}
+.btn{
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #ff99cc ;
+}
+.btn:hover {
+    background-color: #33ccff;
+
+}
+
+.btn-copy:hover {
+    background-color: #ff99cc;
+}
